@@ -1,0 +1,116 @@
+@media (min-width: 501px) and (max-width: 768px) {
+  /* nav-bar */
+  body {
+    display: block;
+    width: 100%;
+  }
+  /* banner */
+  #banner .image {
+    width: 100%;
+    height: auto;
+  }
+  /* nav-bar */
+  #nav-bar .container {
+    width: 100%;
+  }
+  #nav-bar .name {
+    display: none;
+  }
+  #nav-bar a {
+    width: fit-content;
+  }
+  /* about */
+  #about .container {
+    width: 100%;
+  }
+  /* job-info */
+  #job-info .container {
+    display: flex;
+    justify-content: flex-start;
+    padding: 0;
+    width: 100%;
+  }
+  #job-info .container > div {
+    padding: 0;
+  }
+  #job-info .row {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  #job-info .col-3 {
+    width: 90%;
+    margin-bottom: 12px;
+  }
+  /* certificate */
+  #certificate .container {
+    width: 100%;
+  }
+  #certificate .d-flex {
+    flex-direction: column;
+  }
+  #certificate img {
+    padding-bottom: 0;
+  }
+  #certificate .content > div {
+    margin-top: 4px;
+  }
+  /* project */
+  #project .container {
+    width: 100%;
+  }
+  #project .heard {
+    display: block;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+  }
+  #project .lamp {
+    grid-column-start: 3;
+    grid-column-end: 4;
+  }
+  #project .icon-lamp {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    margin-left: 12px;
+    text-align: center;
+  }
+  #project .icon-user-1 {
+    margin-left: 12px;
+    text-align: center;
+  }
+  #project .nam {
+    text-align: center;
+  }
+  #project .col-4 {
+    /* css la col-4 */
+    border: 1px solid #ccc;
+    width: 30%;
+    margin-left: 4px;
+    padding: 0;
+  }
+  #project .heard {
+    /* huy css */
+    border: none;
+  }
+  #project .name-pj {
+    /* huy css */
+    border-left: none;
+    border-right: none;
+  }
+  #project table,
+  td {
+    /* css cho hàng td */
+    border-bottom: 0px solid #fff;
+    border-left: none;
+    border-right: none;
+  }
+  #project table {
+    /* gach chan cho bang */
+    border-collapse: collapse;
+  }
+  /* footer */
+  #footer .container {
+    width: 100%;
+  }
+}
